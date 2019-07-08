@@ -1,0 +1,155 @@
+*{
+	font-family: Palatino Linotype;
+}
+
+html,
+body,
+.view{
+	height: 100%;
+}
+.carousel{
+	height: 50%;
+}
+.carousel .carousel-inner{
+	height: 100%;
+}
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active{
+	height: 100%;
+}
+
+
+@media (max-width: 776px) {
+
+	.carousel{
+		height: 100%;
+	}
+	
+}
+.page-footer{
+	background-color:#929FBA;
+}
+
+
+.row > div{
+display: flex;
+flex-wrap: wrap;
+}
+.card:hover{
+	border:1px solid green; 
+}
+.card{
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.q{
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.w{
+	transition: transform 0.2s;
+}
+.l{ 
+border: 1px solid black;
+ }
+ .w img {
+      -o-object-fit: cover;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      
+    }
+
+ .rt{
+ 	
+ 	border-radius: 2%;
+ }   
+ .rt p,h2 {
+ 	color:white;
+ 	margin-top: 10px;
+ }
+
+.tableadmin{
+	margin-top: 150px;
+}
+
+ .wrap :last-child {
+  margin-right: 0px;/*Убираем поле последнего div-а*/
+                    }
+
+.card img{
+width: 100%;
+    height: 100%; 
+}
+
+.otziv{
+
+	background-color:#38312d; 
+	border-radius: 10px;
+}
+.otziv .sort{
+	background-color:#786f63; 
+}
+.sort{
+	background-color: #38312d;
+	color:white;
+}
+.sort:hover{
+	background-color: rgb(64, 55, 55);
+}
+.roll{
+	border-radius: 10px; 
+	
+	background-color: black;
+}
+
+body{
+	font-family: serif;
+}
+.lnf{
+	position: relative;
+	display: inline-flex;
+	background-color: #695d4d;
+}
+.kl{
+	background-color: #38312d;
+	color:white;
+	border:1px solid white;
+
+}
+.asdf{
+	color: black;
+}
+.hjk{
+	align-items: center;
+}
+.l{
+	color:black;
+}
+html,
+body,
+header,
+.carousel{
+	height: 50vh;
+}
+@media (max-width: 740px) {
+
+html,
+body,
+header,
+.carousel{
+	height: 50vh;
+}
+}
+@media (min-width: 800px) and (max-width:850px ){
+html,
+body,
+header,
+.carousel{
+	height: 100vh;
+}
+}
+
+			
+			
+			
